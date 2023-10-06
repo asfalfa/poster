@@ -1,0 +1,374 @@
+{
+  "projects": [
+    {
+      "id": 12526,
+      "name": "my fanart about some anime",
+      "user": {
+        "id": 2875824,
+        "username": "Jay",
+        "nickname": "My Current Nickname!"
+      },
+      "description": "hey this is my project, I want to draw some fanart",
+      "permissions": {
+        "private": false,
+        "allowedMembers": [],
+        "collaborate": true,
+        "branch": true,
+        "share": true
+      },
+      "branches": [
+        {
+          "id": 23414,
+          "name": "main",
+          "user": {
+            "id": 2875824,
+            "username": "Jay",
+            "nickname": "My Current Nickname!"
+          },
+          "description": "hey this is my project, I want to draw some fanart",
+          "default": true,
+          "attached": null,
+          "permissions": {
+            "private": false,
+            "allowedMembers": [],
+            "collaborate": true,
+            "branch": true,
+            "share": true
+          },
+          "interactions": {
+            "likes": 124,
+            "shares": 385,
+            "bookmarks": 89,
+            "reports": 3,
+            "hidden": 8,
+            "activityRate": 87,
+            "popularityRate": 43
+          },
+          "posts": [
+            {
+              "id": 124876,
+              "user": {
+                "id": 2875824,
+                "username": "Jay",
+                "nickname": "My Current Nickname!"
+              },
+              "date": "22-06-2023",
+              "permissions": {
+                "branch": true,
+                "share": true
+              },
+              "content": "Hey I'm new to Poster!\n Here's a pic of my dog.",
+              "media": [
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                }
+              ]
+            },
+            {
+              "id": 123644,
+              "user": {
+                "id": 2242324,
+                "username": "Hannah",
+                "nickname": "Hannah"
+              },
+              "date": "29-06-2023",
+              "permissions": {
+                "branch": true,
+                "share": true
+              },
+              "content": "Hey here is my dog too.",
+              "media": [
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 23614,
+          "name": "jrr-fanart",
+          "user": {
+            "id": 22234824,
+            "username": "Jrremy",
+            "nickname": "Jrrrr"
+          },
+          "description": "hey this is my project, I want to draw some fanart",
+          "default": false,
+          "attached": 123644,
+          "permissions": {
+            "private": false,
+            "allowedMembers": [],
+            "collaborate": true,
+            "branch": true,
+            "share": true
+          },
+          "interactions": {
+            "likes": 4,
+            "shares": 35,
+            "bookmarks": 8,
+            "reports": 1,
+            "hidden": 0,
+            "activityRate": 7,
+            "popularityRate": 3
+          },
+          "posts": [
+            {
+              "id": 2346876,
+              "user": {
+                "id": 2249824,
+                "username": "Jrremy",
+                "nickname": "Jrrrr"
+              },
+              "date": "22-06-2023",
+              "permissions": {
+                "branch": true,
+                "share": true
+              },
+              "content": "Hey I'm new to Poster!\n Here's a pic of my dog.",
+              "media": [
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                }
+              ]
+            },
+            {
+              "id": 13676,
+              "user": {
+                "id": 5789524,
+                "username": "Kateerr",
+                "nickname": "KateHN"
+              },
+              "date": "22-06-2023",
+              "permissions": {
+                "branch": true,
+                "share": true
+              },
+              "content": "Hey here is my dog too.",
+              "media": [
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23662,
+      "name": "Elyr (Ancient Greece High Fantasy World)",
+      "user": {
+        "id": 2875824,
+        "username": "Jay",
+        "nickname": "My Current Nickname!"
+      },
+      "description": "Elyr is a fantastical world based on an interpretation of ancient Greece where myths and magic are real. You can contribute by sending your own ideas to any of the branches or creating your own.",
+      "permissions": {
+        "private": false,
+        "allowedMembers": [],
+        "collaborate": true,
+        "branch": true,
+        "share": true
+      },
+      "branches": [
+        {
+          "id": 263414,
+          "name": "main",
+          "user": {
+            "id": 2875824,
+            "username": "Jay",
+            "nickname": "My Current Nickname!"
+          },
+          "description": "Elyr is a fantastical world based on an interpretation of ancient Greece where myths and magic are real. You can contribute by sending your own ideas to any of the branches or creating your own.",
+          "default": true,
+          "attached": null,
+          "permissions": {
+            "private": false,
+            "allowedMembers": [],
+            "collaborate": true,
+            "branch": true,
+            "share": true
+          },
+          "interactions": {
+            "likes": 10024,
+            "shares": 3456,
+            "bookmarks": 89,
+            "reports": 23,
+            "hidden": 86,
+            "activityRate": 78,
+            "popularityRate": 96
+          },
+          "posts": [
+            {
+              "id": 123676,
+              "user": {
+                "id": 2875824,
+                "username": "Jay",
+                "nickname": "My Current Nickname!"
+              },
+              "date": "22-06-2023",
+              "permissions": {
+                "branch": true,
+                "share": true
+              },
+              "content": "Hey I'm new to Poster!\n Here's a pic of my dog.",
+              "media": [
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                }
+              ]
+            },
+            {
+              "id": 123744,
+              "user": {
+                "id": 2242324,
+                "username": "Hannah",
+                "nickname": "Hannah"
+              },
+              "date": "29-06-2023",
+              "permissions": {
+                "branch": true,
+                "share": true
+              },
+              "content": "Hey here is my dog too.",
+              "media": [
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 234514,
+          "name": "mythos",
+          "user": {
+            "id": 22472824,
+            "username": "John Ed",
+            "nickname": "JEdward"
+          },
+          "description": "Dedicated to the mythos of Elyr.",
+          "default": false,
+          "attached": 123676,
+          "permissions": {
+            "private": true,
+            "allowedMembers": [22472824, 2875824],
+            "collaborate": false,
+            "branch": false,
+            "share": false
+          },
+          "interactions": {
+            "likes": 4,
+            "shares": 35,
+            "bookmarks": 8,
+            "reports": 1,
+            "hidden": 0,
+            "activityRate": 7,
+            "popularityRate": 3
+          },
+          "posts": [
+            {
+              "id": 12347876,
+              "user": {
+                "id": 22472824,
+                "username": "John Ed",
+                "nickname": "JEdward"
+              },
+              "date": "22-06-2023",
+              "permissions": {
+                "branch": true,
+                "share": true
+              },
+              "content": "Hey I'm new to Poster!\n Here's a pic of my dog.",
+              "media": [
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                }
+              ]
+            },
+            {
+              "id": 1236776,
+              "user": {
+                "id": 22472824,
+                "username": "John Ed",
+                "nickname": "JEdward"
+              },
+              "date": "22-06-2023",
+              "permissions": {
+                "branch": true,
+                "share": true
+              },
+              "content": "Hey here is my dog too.",
+              "media": [
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                },
+                {
+                  "src": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFieSUyMGRvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
