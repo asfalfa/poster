@@ -1,22 +1,90 @@
 const mongoose = require('mongoose');
+const findOrCreate = require ('mongoose-findorcreate');
 
-/* PetSchema will correspond to a collection in your MongoDB database. */
-const UserSchema = new mongoose.Schema({ 
+const PostContributionSchema = new mongoose.Schema({  
+  project: {
+    type: String,
+  },  
+  branch: {
+    type: String,
+  },
+  post: {
+    type: String,
+  }
+});
+const BranchContributionSchema = new mongoose.Schema({  
+  project: {
+    type: String,
+  },  
+  branch: {
+    type: String,
+  }
+});
+
+const UserContributionSchema = new mongoose.Schema({
+  branches: {
+    type: [BranchContributionSchema],
+  },
+  posts: {
+    type: [PostContributionSchema],
+  },
+});
+
+const UserInteractionSchema = new mongoose.Schema({  
+  likes: {
+    type: [String],
+  },  
+  shares: {
+    type: [String],
+  },
+  bookmarks: {
+    type: [String],
+  },
+  reports: {
+    type: [String],
+  },
+  hidden: {
+    type: [String],
+  },
+});
+
+const UserOAuthSchema = new mongoose.Schema({
+  token: {
+    type: String,
+    expires: 86400,
+  },
+  refreshToken: {
+    type: String,
+  },
+});
+
+const UserSchema = new mongoose.Schema({
+  avatar: {
+    type: String,
+  },
   id: {
     type: String,
   },
-  email: {
+  username: {
     type: String,
-    required: [true, "Please provide the post's content"],
+  },
+  nickname: {
+    type: String,
   },
   password: {
     type: String,
-    required: [true, "Please provide the author's name"],
-    maxlength: [60, "Author's Name cannot be more than 60 characters"],
+  },
+  googleId: {
+    type: String,
   },
   token: {
     type: String,
-  }
+    expires: 86400,
+  },
+  contributions: UserContributionSchema,
+  interactions: UserInteractionSchema,
 })
+
+UserSchema.plugin(findOrCreate);
 
 module.exports =  mongoose.model('User', UserSchema)

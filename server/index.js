@@ -3,18 +3,28 @@ if (process.env.NODE_ENV === 'development') {
     require('dotenv').config()
 }
 const { DATABASE_URL } = process.env;
-const express = require('express')
-const app = express ()
-const mongoose = require('mongoose')
-const cors = require('cors')
+const express = require('express');
+const session = require('express-session');
+const app = express ();
+const mongoose = require('mongoose');
+const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const corsOptions = {
-    credentials: true,
-    origin: ['http://localhost:4000']
+const sess = {
+  secret: 'keyboard cat',
+  cookie: {}
 }
+if (process.env.NODE_ENV === 'production') {
+  app.set('trust proxy', 1) // trust first proxy
+  sess.cookie.secure = true // serve secure cookies
+}
+app.use(session(sess));
 
-app.use(cors(corsOptions))
+const corsOptions = {
+  credentials: true,
+  origin: ['http://localhost:3000']
+}
+app.use(cors(corsOptions));
 
 // Database
 mongoose.set('strictQuery', false);
