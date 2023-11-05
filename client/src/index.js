@@ -10,6 +10,9 @@ import Root from './pages/root';
 import Error from './pages/error';
 import Home from './pages/home';
 import Project from './pages/project';
+import Media from './pages/media';
+import Login from './pages/login';
+import Create from './pages/create';
 
 const router = createBrowserRouter([
   {
@@ -22,9 +25,25 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/:id',
+        path: '/:project/:branch',
         element: <Project />,
-      }
+      },
+      {
+        path: '/:project/:branch/:post/',
+        element: <Media />,
+      },
+      {
+        path: '/:project/settings',
+        element: <Project />,
+      },
+      {
+        path: '/project',
+        element: <Create />,
+      },
+      {
+        path: '/login',
+        element: <Login />,
+      },
     ]
   },
 ]);
